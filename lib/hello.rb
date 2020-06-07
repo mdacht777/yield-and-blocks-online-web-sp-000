@@ -1,4 +1,6 @@
 def hello_t(array)
+    puts array.inspect
+    sleep 5
     if block_given?
   i=0
   while i<array.length
